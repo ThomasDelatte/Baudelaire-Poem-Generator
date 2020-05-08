@@ -1,57 +1,55 @@
-Baudelaire_Poem_Generator
-==============================
+# Baudelaire Poem Generator
+#### -- Project Status: [Active]
 
-A generator of poems in French inspired y Baudelaire's style
+## Project Objective
+The purpose of this project is inspired by the [famous Karpathy's article](http://karpathy.github.io/2015/05/21/rnn-effectiveness/), I used a charRNN model with Tensorflow 2 and Keras to generate Baudelaire-like poems. 
 
-Project Organization
-------------
+### Methods Used
+* Web Scraping
+* Deep Learning with Tensorflow 2 and Keras
+* NLP text preprocessing techniques: regex, tokenizer,...
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
+### Technologies
+* Python, Jupyter
+* BeautifulSoup, requests
+* Tensorflow, Keras, Numpy
+* Matplotlib
 
+## Getting Started
 
---------
+# Setup
+Follow these commands to generate a poem if you have minimal experience coding/etc. Open up a terminal and use
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+```bash
+git clone https://github.com/ThomasDelatte/baudelaire-poem-generator.git
+cd baudelaire-poem-generator
+```
+
+Install Python requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+And then run using
+
+```bash
+
+```
+
+Then open your browser to `localhost:8000` to see the poetry generator.
+
+1. Clone this repo.
+2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
+
+    *If using offline data mention that and how they may obtain the data from the froup)*
+    
+3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
+4. etc...
+
+*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
+
+5. Follow setup [instructions](Link to file)
+
+## Featured Notebook
+* [Notebook title](link)
